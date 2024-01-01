@@ -13,6 +13,6 @@ process.on('SIGINT', () => {
   process.exit(0)
 })
 
-app.listen(3001, () => {
+app.listen(3002, () => {
   console.log('Server is running on port 3002 [cra-b]')
 })
