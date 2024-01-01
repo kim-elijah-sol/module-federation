@@ -5,6 +5,9 @@
     "cra-a",
     "cra-b"
   ],
+  "scripts": {
+    "turbo:start": "turbo run start --filter='@module-federation*'"
+  },
   "devDependencies": {
     "@types/eslint": "^8.44.8",
     "@types/node": "^20.10.3",
